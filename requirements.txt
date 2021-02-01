@@ -1,0 +1,4 @@
+python-imagesearch-drov0
+keyboard
+ahk
+pyautogui
