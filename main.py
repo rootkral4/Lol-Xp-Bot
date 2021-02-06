@@ -269,7 +269,11 @@ def playgame(LEVELUP, BUY):
             attack()
             f2up()
             
+def resetcounter():
+    with open("log.txt", "w") as f:
+        f.write("0")
 
+atexit.register(resetcounter)
 atexit.register(killthread)
 
 while True:
